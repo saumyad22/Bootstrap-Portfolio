@@ -1,10 +1,13 @@
 body{
 	background-color:#efefef; 
 }
-.nav1 a{
+
+.nav1 .navbar-brand{
 	background-color: #4aaaa5;
 	color: #fff;
 	font-weight: bold;
+	
+	font-size: 18px;
 }
 
 .nav1 li a{
@@ -54,3 +57,17 @@ nav{
     color: #fff;
 
 }
+
+    #footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    border-top: 3px solid #4aaaa5;
+    
+    background-color: #666666;
+    /*.footer-block {
+      margin: 20px 0;
+    }*/
